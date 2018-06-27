@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DR Tour Guide</string>
+    <string name="title_home">Home</string>
+    <string name="title_attractions">Attractions</string>
+    <string name="title_hotels">Hotels</string>
+    <string name="title_food">Food</string>
+    <string name="title_shopping">Shopping</string>
+    <string name="country_name">Dominican Republic</string>
+    <string name="thumbnail_image">Thumbnail</string>
+    <string name="let_go_dr">Let\'s go Dominican Rep.</string>
+    <string name="description">The Dominican Republic is the most visited destination in the Caribbean. The year-round golf courses are major attractions. A geographically diverse nation, the Dominican Republic is home to both the Caribbean\'s tallest mountain peak, Pico Duarte, and the Caribbean\'s largest lake and point of lowest elevation, Lake Enriquillo.[30] The island has an average temperature of 26 °C (78.8 °F) and great climatic and biological diversity.[29] The country is also the site of the first cathedral, castle, monastery, and fortress built in the Americas, located in Santo Domingo\'s Colonial Zone, a World Heritage Site.</string>
+    <string name="girl_on_beach">girl on beach</string>
+</resources>
