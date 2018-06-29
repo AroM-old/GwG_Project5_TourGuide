@@ -7,6 +7,11 @@ import android.util.Log;
 
 import java.lang.reflect.Field;
 
+/**
+ * {@link BottomNavigationViewHelper} remove animation from the bottom view
+ * menu and show labels in each icon menu
+ */
+
 public class BottomNavigationViewHelper {
 
     public static void disableShifMode(BottomNavigationView view) {

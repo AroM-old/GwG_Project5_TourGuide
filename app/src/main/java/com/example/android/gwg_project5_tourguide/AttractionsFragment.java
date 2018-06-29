@@ -29,6 +29,7 @@ public class AttractionsFragment extends Fragment {
     public View onCreateView(final LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.info_list, container, false);
+        getActivity().setTitle(getString(R.string.attractions));
 
         //Create a list with information about attractions
         final ArrayList<Info> info = new ArrayList<>();
@@ -67,9 +68,13 @@ public class AttractionsFragment extends Fragment {
                 Intent intent = new Intent(getActivity().getBaseContext(), DescriptionActivity.class);
 
                 // Add information to share with the {@link DescriptionActivity}
-                intent.putExtra("NAME_KEY", infoPosition.getName());
-                intent.putExtra("LOCATION_KEY", infoPosition.getLocation());
                 intent.putExtra("ResID", infoPosition.getResourceID());
+                intent.putExtra("NAME_KEY", infoPosition.getName());
+                intent.putExtra("DESC_KEY", infoPosition.getDescription());
+                intent.putExtra("LOCATION_KEY", infoPosition.getLocation());
+                intent.putExtra("CONTACT_KEY", infoPosition.getContact());
+                intent.putExtra("WEBSITE_KEY", infoPosition.getWebsite());
+
 
                 //Start the new activity
                 getActivity().startActivity(intent);

@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">DR Tour Guide</string>
+    <string name="attractions">Attractions</string>
+    <string name="hotels">Hotels</string>
+    <string name="food">Food</string>
+    <string name="shopping">Shopping</string>
     <string name="title_home">Home</string>
     <string name="title_attractions">Attractions</string>
     <string name="title_hotels">Hotels</string>
