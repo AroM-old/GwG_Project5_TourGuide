@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Listener for the navigation bar and switch fragment when touch
         BottomNavigationView navigationView = findViewById(R.id.navigation);
+        BottomNavigationViewHelper.disableShifMode(navigationView);
         navigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {

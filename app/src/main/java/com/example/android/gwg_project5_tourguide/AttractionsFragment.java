@@ -8,15 +8,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
+
 import java.util.ArrayList;
 
 
 /**
-*{@link AttractionsFragment} Display a list with various attractions
-* with a thumbnail image, name, short description also save data
-* with location, contact and website to be show when user touch
-* the item list.
-* */
+ * {@link AttractionsFragment} Display a list with various attractions
+ * with a thumbnail image, name, short description also save data
+ * with location, contact and website to be show when user touch
+ * the item list.
+ */
 
 public class AttractionsFragment extends Fragment {
 
@@ -75,6 +76,7 @@ public class AttractionsFragment extends Fragment {
             }
         });
 
+        // Return a list of items
         return rootView;
     }
 
