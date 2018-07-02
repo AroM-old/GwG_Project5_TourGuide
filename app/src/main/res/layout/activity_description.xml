@@ -32,23 +32,41 @@
         app:layout_constraintVertical_bias="0.0"
         tools:text="Name of the place" />
 
-    <TextView
-        android:id="@+id/description_textview"
-        style="@style/list_description"
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
         android:layout_marginTop="8dp"
-        android:justificationMode="inter_word"
-        android:lineSpacingExtra="2dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/block_text"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.063"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name_textview"
-        app:layout_constraintVertical_bias="0.0"
-        tools:text="@tools:sample/lorem" />
+        app:layout_constraintTop_toBottomOf="@+id/name_textview">
+
+        <TextView
+            android:id="@+id/description_textview"
+            style="@style/list_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="8dp"
+            android:gravity="fill_vertical"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="2dp"
+            android:padding="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name_textview"
+            app:layout_constraintVertical_bias="0.0"
+            tools:text="A brief description of the place." />
+
+    </LinearLayout>
+
 
     <TextView
         android:id="@+id/location_textview"
@@ -71,7 +89,7 @@
         android:id="@+id/contact_textview"
         android:layout_width="wrap_content"
         android:layout_height="19dp"
-        android:layout_marginBottom="72dp"
+        android:layout_marginBottom="44dp"
         android:layout_marginEnd="228dp"
         android:layout_marginLeft="32dp"
         android:layout_marginRight="228dp"
@@ -81,15 +99,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/location_textview"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
         tools:text="@tools:sample/us_phones" />
 
     <TextView
         android:id="@+id/website_textview"
         android:layout_width="wrap_content"
         android:layout_height="19dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="32dp"
         android:layout_marginRight="8dp"
@@ -97,10 +114,9 @@
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.015"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toBottomOf="@+id/contact_textview"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
         tools:text="@tools:sample/cities" />
 
     <ImageView
@@ -108,12 +124,12 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/description_textview"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_directions_black_24dp" />
 
@@ -137,12 +153,12 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView3"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/description_textview"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_call_black_24dp" />
 
@@ -166,12 +182,12 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/description_textview"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_public_black_24dp" />
 
@@ -192,10 +208,10 @@
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapView"
-        android:layout_width="345dp"
-        android:layout_height="100dp"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -236,13 +252,13 @@
         android:layout_width="18dp"
         android:layout_height="18dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginStart="24dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:layout_constraintVertical_bias="0.038"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_public_black_24dp" />
 
 </android.support.constraint.ConstraintLayout>
