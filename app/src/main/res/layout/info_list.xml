@@ -3,11 +3,10 @@
     android:id="@+id/info_list"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:paddingBottom="65dp"
     android:cacheColorHint="@android:color/transparent"
     android:divider="@null"
-    android:dividerHeight="10dp"
+    android:dividerHeight="@dimen/height_10"
+    android:drawSelectorOnTop="true"
     android:listSelector="@android:color/transparent"
-    android:drawSelectorOnTop="true">
-</ListView>
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_65"></ListView>

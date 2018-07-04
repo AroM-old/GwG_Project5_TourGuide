@@ -6,33 +6,33 @@
 
     <ImageView
         android:id="@+id/header_placeholder"
+        style="@style/home_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.31"
-        style="@style/home_bg"
         app:srcCompat="@drawable/placeholder_header" />
 
     <TextView
         android:id="@+id/title_header_dr"
+        style="@style/home_title"
         android:text="@string/let_go_dr"
         app:layout_constraintBottom_toBottomOf="@+id/header_placeholder"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        style="@style/home_title"
         app:layout_constraintVertical_bias="0.206" />
 
     <TextView
+        style="@style/home_description"
         android:text="@string/description"
         app:layout_constraintBottom_toBottomOf="@+id/header_placeholder"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_header_dr"
-        style="@style/home_description"
         app:layout_constraintVertical_bias="0.22" />
 
 </android.support.constraint.ConstraintLayout>

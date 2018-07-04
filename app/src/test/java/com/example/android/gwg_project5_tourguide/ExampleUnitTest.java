@@ -2,7 +2,7 @@ package com.example.android.gwg_project5_tourguide;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Example local unit test, which will execute on the development machine (host).

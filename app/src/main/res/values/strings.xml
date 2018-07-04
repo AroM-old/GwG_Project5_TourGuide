@@ -42,7 +42,7 @@
     <string name="columbus_house_desc">It was built on a plot close to the rock islet that look towards the Ozama river, granted to Diego Columbus, firstborn son of the discoverer of America, Christopher Columbus, by the king Ferdinand II of Aragon, to build a dwelling for him and his descendants on the island Hispaniola, to which he arrived in 1509 as governor. The building houses the Museo Alcázar de Diego Colón, whose collection exhibits the Caribbean\'s most important ensemble of European late medieval and Renaissance works of art, which were acquired in the 1950s</string>
     <string name="columbus_house_location">Plaza Espana, Sto. Dgo., Dom. Rep.</string>
     <string name="columbus_house_contact">+1 809-682-4750</string>
-    <string name="basilica_higuey">Basilica Catedral Nuestra Senora de la Altagracia</string>
+    <string name="basilica_higuey">Altagracia\'s Cathedral</string>
     <string name="basilica_desc">The cathedral was raised to the honor of a minor basilica by Pope Paul VI on December 17, 1970. It was visited by Pope John Paul II during his visit to the country in 1992. Among the many reasons that inspired its creation, there is one that stands out. A long time ago a young girl from same city asked her father for a portrait of the Virgin Mary.</string>
     <string name="basilica_location">Higuey 23000, Dom. Rep.</string>
     <string name="basilica_contact">+1 809-508-3403</string>
@@ -56,7 +56,7 @@
     <string name="dunas_desc">a desert or dune field located in Las Calderas Peninsula, about an hour west from Sto. Dgo.. Las Dunas de Bani is a special area, seen as very dreamy and calming. The dune field goes through a straight line of 15 kilometres of very smooth sand, formed by a natural phenomenon that started in the Pleistocene. You’re walking on history.</string>
     <string name="dunas_location">Bani, Las Calderas 94000, Dom. Rep.</string>
     <string name="dunas_contact">+1 809-522-1313</string>
-    <string name="monumento_santiago">Monumento a los Héroes de la Restauración</string>
+    <string name="monumento_santiago">Retauration\'s Monument</string>
     <string name="monumento_description">is dedicated to the heroes of the Dominican Restoration War, fought from 1863 to 1865 against Dominican Colonist and Spanish forces. The heroes include, but are not limited to; Francisco del Rosario Sánchez and Gregorio Luperón.</string>
     <string name="monumento_location">Daniel Espinal, Santiago De Los Caballeros 51000, Dom. Rep.</string>
     <string name="monumento_contact">+1 809-241-1391</string>
@@ -82,7 +82,7 @@
 
     <!--Begin Shopping-->
     <string name="sambil_name">Sambil Sto. Dgo.</string>
-    <string name="sambil_desc">Sambil es una exitosa empresa constructora en América Latina. En 1958, el distinguido ingeniero Salomón Cohen Levy fundó Constructora Sambil en Caracas. Desde entonces desarrolló y administró un gran número de complejos residenciales, edificios de oficinas y hoteles. En 1998, Sambil abrió su primer centro comercial en Caracas. Su éxito se extendió a otras ciudades venezolanas como: Valencia, Maracaibo, San Cristóbal, Paraguaná, Barquisimeto y la isla de Margarita.</string>
+    <string name="sambil_desc">Sambil is a successful construction company in Latin America. In 1958, the distinguished engineer Salomón Cohen Levy founded Constructora Sambil in Caracas. Since then he has developed and managed a large number of residential complexes, office buildings and hotels. In 1998, Sambil opened its first shopping center in Caracas. Its success extended to other Venezuelan cities such as: Valencia, Maracaibo, San Cristóbal, Paraguaná, Barquisimeto and the island of Margarita.</string>
     <string name="sambil_location">John F. Kennedy Ave,Sto. Dgo. 10230, Dom. Rep.</string>
     <string name="sambil_contact">+1 809-234-5678</string>
     <string name="sambil_website">http://www.sambil.com.do/</string>
