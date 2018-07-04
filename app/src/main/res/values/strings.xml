@@ -1,4 +1,5 @@
 <resources>
+    <!-- App UI-->
     <string name="app_name">DR Tour Guide</string>
     <string name="attractions">Attractions</string>
     <string name="hotels">Hotels</string>
@@ -9,51 +10,91 @@
     <string name="title_hotels">Hotels</string>
     <string name="title_food">Food</string>
     <string name="title_shopping">Shopping</string>
-    <string name="country_name">Dominican Republic</string>
+    <string name="country_name">Dom. Rep.</string>
     <string name="thumbnail_image">Thumbnail</string>
     <string name="let_go_dr">Let\'s go Dominican Rep.</string>
-    <string name="description">The Dominican Republic is the most visited destination in the Caribbean. The year-round golf courses are major attractions. A geographically diverse nation, the Dominican Republic is home to both the Caribbean\'s tallest mountain peak, Pico Duarte, and the Caribbean\'s largest lake and point of lowest elevation, Lake Enriquillo. The island has an average temperature of 26 °C (78.8 °F) and great climatic and biological diversity. The country is also the site of the first cathedral, castle, monastery, and fortress built in the Americas, located in Santo Domingo\'s Colonial Zone, a World Heritage Site.</string>
+    <string name="description">The Dom. Rep. is the most visited destination in the Caribbean. The year-round golf courses are major attractions. A geographically diverse nation, the Dom. Rep. is home to both the Caribbean\'s tallest mountain peak, Pico Duarte, and the Caribbean\'s largest lake and point of lowest elevation, Lake Enriquillo. The island has an average temperature of 26 °C (78.8 °F) and great climatic and biological diversity. The country is also the site of the first cathedral, castle, monastery, and fortress built in the Americas, located in Sto. Dgo.\'s Colonial Zone, a World Heritage Site.</string>
     <string name="girl_on_beach">girl on beach</string>
+    <string name="website_textview">Website</string>
+    <string name="directions_textview">Directions</string>
+    <string name="call_textview">Call</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--Begin Placeholder Text-->
+    <string name="placeholder_name">Lorem ipsum dolor</string>
+    <string name="placehoder_desc">Nunc vel condimentum metus, quis dictum nisl. Aliquam porta tristique finibus. Curabitur enim sem, pretium non consequat eget, accumsan non odio. Vestibulum tempor sollicitudin sem. Aliquam tincidunt pulvinar nisl, eu.</string>
+    <string name="placeholder_location">9468 Brewery Lane Elk River, MN 55330</string>
+    <string name="placeholder_contact">+1-202-555-0146</string>
+    <string name="placeholder_website">https://mylocation.org/</string>
+    <!--End placeholder text-->
+
+    <!--Begin Attractions-->
     <string name="columbus_lighthouse">Columbus Lighthouse</string>
     <string name="columbus_desc">Construction began in 1986 using plans drawn by Scottish architect J.L. Gleave in 1931, in time for the 500th anniversary of the \"Discovery of America\" by Europeans, the monument was inaugurated in 1992. It was funded by the Latin American states and the total cost of construction was approximately US$70 million.</string>
-    <string name="columbus_location">Santo Domingo Este 11604, Dominican Republic</string>
+    <string name="columbus_location">Sto. Dgo. Este 11604, Dom. Rep.</string>
     <string name="columbus_contact">+1 809-591-4844</string>
     <string name="none_website">None</string>
     <string name="national_aquarium">National Aquarium</string>
-    <string name="aquarium_desc"><![CDATA[National aquarium devoted to marine life conservation, with educational exhibits & guided tours.]]></string>
-    <string name="aquarium_location">Ave. España No.75, Sans Souci, Santo Domingo Este 11603, Dominican Republic</string>
+    <string name="aquarium_desc">National aquarium devoted to marine life conservation, with educational exhibits and guided tours</string>
+    <string name="aquarium_location">Ave. España No.75, Sans Souci, Sto. Dgo. East 11603, Dom. Rep.</string>
     <string name="aquarium_contact">+1 809-766-1709</string>
     <string name="columbus_house">Columbus\' House</string>
     <string name="columbus_house_desc">It was built on a plot close to the rock islet that look towards the Ozama river, granted to Diego Columbus, firstborn son of the discoverer of America, Christopher Columbus, by the king Ferdinand II of Aragon, to build a dwelling for him and his descendants on the island Hispaniola, to which he arrived in 1509 as governor. The building houses the Museo Alcázar de Diego Colón, whose collection exhibits the Caribbean\'s most important ensemble of European late medieval and Renaissance works of art, which were acquired in the 1950s</string>
-    <string name="columbus_house_location">Plaza Espana, Santo Domingo, Dominican Republic</string>
+    <string name="columbus_house_location">Plaza Espana, Sto. Dgo., Dom. Rep.</string>
     <string name="columbus_house_contact">+1 809-682-4750</string>
     <string name="basilica_higuey">Basilica Catedral Nuestra Senora de la Altagracia</string>
-    <string name="basilica_desc">The cathedral was raised to the honor of a minor basilica by Pope Paul VI on December 17, 1970. It was visited by Pope John Paul II during his visit to the country in 1992.
-
-Among the many reasons that inspired its creation, there is one that stands out. A long time ago a young girl from same city asked her father for a portrait of the Virgin Mary. Her father (name unknown) brought the picture as gift for her. It is believed that the portrait was placed at the house of this girl. For some reason, at the break of dawn of each day, the portrait was always found outside the house, beneath a small tree. Every day this portrait was moved back inside by the girl, until she told her parents about it. The place became sacred, and the basilica was built on that same spot as reference of Mary's grace.</string>
-    <string name="basilica_location">Higuey 23000, Dominican Republic</string>
+    <string name="basilica_desc">The cathedral was raised to the honor of a minor basilica by Pope Paul VI on December 17, 1970. It was visited by Pope John Paul II during his visit to the country in 1992. Among the many reasons that inspired its creation, there is one that stands out. A long time ago a young girl from same city asked her father for a portrait of the Virgin Mary.</string>
+    <string name="basilica_location">Higuey 23000, Dom. Rep.</string>
     <string name="basilica_contact">+1 809-508-3403</string>
     <string name="basilica_website">http://www.basilicahiguey.com/</string>
     <string name="botanical_garden">Botanical Garden</string>
-    <string name="botanical_desc">The garden\'s symbol is a \"guanito\" leaf (Coccothrinax argentea) which is a palm tree found in the garden. The garden is a decentralized institution that reports to the Dominican Republic\'s Presidential Ministry of Management.</string>
-    <string name="botanical_location">Mt. Isabel de Torres, Santo Domingo 10507, Dominican Republic</string>
+    <string name="botanical_desc">The garden\'s symbol is a \"guanito\" leaf (Coccothrinax argentea) which is a palm tree found in the garden. The garden is a decentralized institution that reports to the Dom. Rep.\'s Presidential Ministry of Management.</string>
+    <string name="botanical_location">Mt. Isabel de Torres, Sto. Dgo. 10507, Dom. Rep.</string>
     <string name="botanical_contact">+1 809-565-2860</string>
     <string name="botanical_website">http://www.jbn.gob.do/</string>
     <string name="dunas_bani">Dunas de Bani</string>
-    <string name="dunas_desc">a desert or dune field located in Las Calderas Peninsula, about an hour west from Santo Domingo. Las Dunas de Bani is a special area, seen as very dreamy and calming. The dune field goes through a straight line of 15 kilometres of very smooth sand, formed by a natural phenomenon that started in the Pleistocene. You’re walking on history.</string>
-    <string name="dunas_location">Bani, Las Calderas 94000, Dominican Republic</string>
+    <string name="dunas_desc">a desert or dune field located in Las Calderas Peninsula, about an hour west from Sto. Dgo.. Las Dunas de Bani is a special area, seen as very dreamy and calming. The dune field goes through a straight line of 15 kilometres of very smooth sand, formed by a natural phenomenon that started in the Pleistocene. You’re walking on history.</string>
+    <string name="dunas_location">Bani, Las Calderas 94000, Dom. Rep.</string>
     <string name="dunas_contact">+1 809-522-1313</string>
     <string name="monumento_santiago">Monumento a los Héroes de la Restauración</string>
     <string name="monumento_description">is dedicated to the heroes of the Dominican Restoration War, fought from 1863 to 1865 against Dominican Colonist and Spanish forces. The heroes include, but are not limited to; Francisco del Rosario Sánchez and Gregorio Luperón.</string>
-    <string name="monumento_location">Daniel Espinal, Santiago De Los Caballeros 51000, Dominican Republic</string>
+    <string name="monumento_location">Daniel Espinal, Santiago De Los Caballeros 51000, Dom. Rep.</string>
     <string name="monumento_contact">+1 809-241-1391</string>
     <string name="monumento_website">http://www.godominicanrepublic.com/santiago/</string>
     <string name="puerta_conde">La Puerta del Conde</string>
-    <string name="puerta_description">The gate is part of a structure called El Baluarte del Conde (The Count\'s Bulwark), a fort in Ciudad Colonial, the colonial area of Santo Domingo. The fort was part of a larger system of fortifications that ran along a defensive wall which surrounded Ciudad Colonial. The Altar of the Fatherland and Independence Park are located there.</string>
-    <string name="puerta_location">Calle Palo Hincado, Santo Domingo 10209, Dominican Republic</string>
+    <string name="puerta_description">The gate is part of a structure called El Baluarte del Conde (The Count\'s Bulwark), a fort in Ciudad Colonial, the colonial area of Sto. Dgo.. The fort was part of a larger system of fortifications that ran along a defensive wall which surrounded Ciudad Colonial. The Altar of the Fatherland and Independence Park are located there.</string>
+    <string name="puerta_location">Calle Palo Hincado, Sto. Dgo. 10209, Dom. Rep.</string>
     <string name="cable_car">The Cable Car</string>
     <string name="cable_description">It was inaugurated in 1975, with construction of Italian origin. It can carry 17 people and takes 8 minutes to climb and descend the mountain. It is moved by an electric hydraulic system, conducted by a central operator, situated in the base station. This small train is welcoming, with protective glass walls, and offers the visitor a panoramic view of the city descending from the hill (which at its top is 2,555 feet (779 m) above sea level).</string>
-    <string name="cable_location">Ave. Manolo Tavarez Justo, Puerto Plata 57000, Dominican Republic.</string>
+    <string name="cable_location">Ave. Manolo Tavarez Justo, Puerto Plata 57000, Dom. Rep..</string>
     <string name="cable_contact">+1 809-970-0501</string>
     <string name="cable_website">http://telefericopuertoplata.com/</string>
+    <!--End Attractions-->
+
+
+    <!--Begin Food-->
+    <string name="namnam_name">Nam Nam Restaurant</string>
+    <string name="namnam_desc">We are a petite, family owned restaurant, opened in 2011 and situated in a residential area Los Corales in Bavaro. Our story is very simple: we prepare the food we like to eat. And we like it all fresh! Ñam means “yummy”, and we do our best to make delicious food.</string>
+    <string name="namnam_location">Plaza Sol Caribe, C/ Los Corales, Bávaro, Punta Cana 23000, Dom Rep</string>
+    <string name="namnam_contact">+1 809-988-3176</string>
+    <string name="namnam_website">http://www.nam-nams.com/</string>
+    <!--End Food-->
+
+    <!--Begin Shopping-->
+    <string name="sambil_name">Sambil Sto. Dgo.</string>
+    <string name="sambil_desc">Sambil es una exitosa empresa constructora en América Latina. En 1958, el distinguido ingeniero Salomón Cohen Levy fundó Constructora Sambil en Caracas. Desde entonces desarrolló y administró un gran número de complejos residenciales, edificios de oficinas y hoteles. En 1998, Sambil abrió su primer centro comercial en Caracas. Su éxito se extendió a otras ciudades venezolanas como: Valencia, Maracaibo, San Cristóbal, Paraguaná, Barquisimeto y la isla de Margarita.</string>
+    <string name="sambil_location">John F. Kennedy Ave,Sto. Dgo. 10230, Dom. Rep.</string>
+    <string name="sambil_contact">+1 809-234-5678</string>
+    <string name="sambil_website">http://www.sambil.com.do/</string>
+    <!--End Shopping-->
+
+    <!--Begin Hotels-->
+    <string name="sheraton_name">Sheraton Sto. Dgo.</string>
+    <string name="sheraton_descr">Our Sto. Dgo. hotel is conveniently located near the historic Colonial zone, offering tourists easy access to many popular attractions and other things to do in Sto. Dgo.. Learn more about Dominican history at the National Museum of History and Geography, explore ancient Catholic churches and peek into the past, or walk along the water at the Port of Sto. Dgo..</string>
+    <string name="sheraton_location">365 George Washington Avenue, Sto. Dgo. 10205, Dom. Rep.</string>
+    <string name="sheraton_contact">+1 809-221-6666</string>
+    <string name="sheraton_website">http://www.sheratonsantodomingo.com/</string>
+    <!--End Hotels-->
+
+
 </resources>

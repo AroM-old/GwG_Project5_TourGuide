@@ -1,13 +1,15 @@
 package com.example.android.gwg_project5_tourguide;
 
-import android.content.Context;
-import android.net.Uri;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ListView;
 
+import java.util.ArrayList;
 
 
 public class ShoppingFragment extends Fragment {
@@ -16,7 +18,63 @@ public class ShoppingFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.info_list, container, false);
+        View rootView = inflater.inflate(R.layout.info_list, container, false);
+        //Add fragment title to the toolbar
+        getActivity().setTitle(getString(R.string.shopping));
+
+        //Create a list with information about hotels
+        final ArrayList<Info> info = new ArrayList<>();
+        info.add(new Info(R.drawable.sambil_shopping, getString(R.string.sambil_name), getString(R.string.sambil_desc), getString(R.string.sambil_location), getString(R.string.sambil_contact), getString(R.string.sambil_website)));
+        info.add(new Info(R.drawable.dummy_640x400_bankcard, getString(R.string.placeholder_name), getString(R.string.placehoder_desc), getString(R.string.placeholder_location), getString(R.string.placeholder_contact), getString(R.string.placeholder_website)));
+        info.add(new Info(R.drawable.dummy_640x400_bankcard, getString(R.string.placeholder_name), getString(R.string.placehoder_desc), getString(R.string.placeholder_location), getString(R.string.placeholder_contact), getString(R.string.placeholder_website)));
+        info.add(new Info(R.drawable.dummy_640x400_bankcard, getString(R.string.placeholder_name), getString(R.string.placehoder_desc), getString(R.string.placeholder_location), getString(R.string.placeholder_contact), getString(R.string.placeholder_website)));
+        info.add(new Info(R.drawable.dummy_640x400_bankcard, getString(R.string.placeholder_name), getString(R.string.placehoder_desc), getString(R.string.placeholder_location), getString(R.string.placeholder_contact), getString(R.string.placeholder_website)));
+        info.add(new Info(R.drawable.dummy_640x400_bankcard, getString(R.string.placeholder_name), getString(R.string.placehoder_desc), getString(R.string.placeholder_location), getString(R.string.placeholder_contact), getString(R.string.placeholder_website)));
+        info.add(new Info(R.drawable.dummy_640x400_bankcard, getString(R.string.placeholder_name), getString(R.string.placehoder_desc), getString(R.string.placeholder_location), getString(R.string.placeholder_contact), getString(R.string.placeholder_website)));
+        info.add(new Info(R.drawable.dummy_640x400_bankcard, getString(R.string.placeholder_name), getString(R.string.placehoder_desc), getString(R.string.placeholder_location), getString(R.string.placeholder_contact), getString(R.string.placeholder_website)));
+        info.add(new Info(R.drawable.dummy_640x400_bankcard, getString(R.string.placeholder_name), getString(R.string.placehoder_desc), getString(R.string.placeholder_location), getString(R.string.placeholder_contact), getString(R.string.placeholder_website)));
+        info.add(new Info(R.drawable.dummy_640x400_bankcard, getString(R.string.placeholder_name), getString(R.string.placehoder_desc), getString(R.string.placeholder_location), getString(R.string.placeholder_contact), getString(R.string.placeholder_website)));
+
+        //Create an {@link InfoAdapter}, whose data source is a list of {@link Info}s.
+        //The adapter create list items for each item in the list;
+        InfoAdapter adapter = new InfoAdapter(getActivity(), info);
+
+        // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
+        // There should be a {@link ListView} with the view ID called list, which is declared in the
+        // info_list.xml layout file.
+        ListView listView = rootView.findViewById(R.id.info_list);
+
+        // Make the {@link ListView} use the {@link InfoAdapter} we created above, so that the
+        // {@link ListView} will display list items for each {@link Info} in the list.
+        listView.setAdapter(adapter);
+
+
+        // Set a click listener to show a open activity_description.xml when the list item is clicked on
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                // Get the item position on the list
+                Info infoPosition = info.get(position);
+
+                // Generate a new intent to open the {@link DescriptionActivity}
+                Intent intent = new Intent(getActivity().getBaseContext(), DescriptionActivity.class);
+
+                // Add information to share with the {@link DescriptionActivity}
+                intent.putExtra("ResID", infoPosition.getResourceID());
+                intent.putExtra("NAME_KEY", infoPosition.getName());
+                intent.putExtra("DESC_KEY", infoPosition.getDescription());
+                intent.putExtra("LOCATION_KEY", infoPosition.getLocation());
+                intent.putExtra("CONTACT_KEY", infoPosition.getContact());
+                intent.putExtra("WEBSITE_KEY", infoPosition.getWebsite());
+
+
+                //Start the new activity
+                getActivity().startActivity(intent);
+            }
+        });
+
+        // Return a list of items
+        return rootView;
     }
 
 }

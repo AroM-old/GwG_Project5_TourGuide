@@ -29,6 +29,7 @@ public class AttractionsFragment extends Fragment {
     public View onCreateView(final LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.info_list, container, false);
+        //Add fragment title to the toolbar
         getActivity().setTitle(getString(R.string.attractions));
 
         //Create a list with information about attractions
